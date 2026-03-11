@@ -24,7 +24,7 @@ Task Manager API adalah REST API sederhana untuk mengelola task harian dengan fi
 
 ```bash
 git clone https://github.com/khaerulroh25/task_manager_api.git
-cd task-manager-api
+cd task_manager_api
 ```
 
 2. Install dependencies
