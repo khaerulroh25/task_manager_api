@@ -69,7 +69,7 @@ CREATE DATABASE task_manager;
 2. Run migration
 
 ```bash
-CREATE DATABASE task_manager;
+npx knex migrate:latest
 ```
 
 ## API Endpoints
