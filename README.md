@@ -131,6 +131,7 @@ POST /tasks
 Header:
 
 Authorization: Bearer TOKEN
+Content-Type: application/json
 
 Body:
 
