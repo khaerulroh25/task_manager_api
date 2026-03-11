@@ -46,7 +46,16 @@ DB_NAME=task_manager
 JWT_SECRET=secret123
 ```
 
-4. Jalankan server
+4. Ubah bagian script di package.json
+
+```bash
+"scripts": {
+    "dev": "nodemon src/app.js  --watch src/ --watch package.json",
+    "start": "node src/app.js"
+  },
+```
+
+5. Jalankan server
 
 ```bash
 npm run dev
